@@ -48,11 +48,11 @@ class ReusableCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Text(
-                username,
+                username ?? '',
                 style: kCardTitleStyle,
               ),
               Text(
-                description,
+                description ?? '',
                 textAlign: TextAlign.left,
                 style: kCardTextStyle,
               ),
